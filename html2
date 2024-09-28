@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+  <title>Dual Vega-Lite Visualizations</title>
+</head>
+<body>
+
+  <h1>Migration Visualization for Australian States (2015)</h1>
+
+  <!-- 容器1：地图可视化 -->
+  <div id="vis_map" style="width: 100%; height: 500px;"></div>
+
+  <!-- 容器2：柱状图可视化 -->
+  <div id="vis_bar" style="width: 100%; height: 500px;"></div>
+
+  <script src="vega_lite_vis2.js"></script>  <!-- 加载外部的 JavaScript 文件 -->
+
+</body>
+</html>
